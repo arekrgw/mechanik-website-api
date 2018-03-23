@@ -1,0 +1,7 @@
+RewriteEngine on
+
+
+RewriteRule ^lol/([0-9])/$ index.php?id=$1
+RewriteRule ^lol/([0-9]+)/([a-zA-z]+)/$ index.php?id=$1&text=$2
+RewriteRule ^nextrule classes/test.php
+RewriteRule ^lol index.php
